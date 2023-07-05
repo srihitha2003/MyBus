@@ -1,0 +1,179 @@
+                
+body{
+    margin:0;
+    padding:0;
+  
+    background: url(bookingdetailsbackground.jpg) no-repeat center center fixed; 
+
+    -webkit-background-size: cover;
+    
+    -moz-background-size: cover;
+    
+    -o-background-size: cover;
+    
+    background-size: cover;
+    
+    overflow: hidden;
+    opacity: 0.9;
+}
+.center
+{
+    width: 700px;
+    background: white;
+    border-radius: 10px;
+    margin-left: 50%;
+    scroll-behavior:initial;
+    padding: 1%;
+}
+.center h1
+{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid grey;
+}
+.center form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+form .txt_field
+{
+    position: relative ;
+    border-bottom: 2px solid grey;
+    margin: 30px 0;
+}
+.txt_field input
+{
+    width: 90%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+.txt_field label
+{
+    position: absolute;
+    top:50%;
+    left: 5px;
+    color: tomato;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+.txt_field span::before
+{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: lightskyblue;
+    transition: .5s;
+}
+.txt_field input:focus ~ label,
+.txt_field input:valid ~ label
+{
+    top: -5px;
+    color: lightskyblue;
+}
+.txt_field input:focus ~ span::before,
+.txt_field input:valid ~ span::before
+{
+    width: 100%;
+}
+input[type="submit"]:hover
+{
+    border-color: lightskyblue;
+    transition: .5s;
+}
+h2
+{
+    color: brown;
+}
+p
+{
+    color: purple;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #aad4da;
+  }
+  #login{
+  
+  float: right;
+  }
+  
+  .float{
+  float: right;
+  }  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 20px 22px;
+    font-family: Maiandra GD;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: black;
+    padding: 20px 22px;
+    background-color: inherit;
+    font-family: Maiandra GD;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: grey;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .navbar a.active {
+    background-color: #b93425;
+    color: white;
+  }
+  .footer{
+    text-align: center;
+    font-family: Maiandra GD;
+    background-color: #343a40;
+    height: 5%;
+    padding-top: 0.7%;
+    padding-bottom: 0.7%;
+  }

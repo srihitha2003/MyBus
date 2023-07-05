@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+
+
+    /* STYLING SECTION   */  
+                    ul {
+    padding: 0;
+    clear: both;
+    border-width: 5px;
+    
+    
+  }
+  
+  li{
+    list-style-type: none;
+    list-style-position: outside;
+    padding: 10px;
+    float: left;
+    font-display: center;
+  }
+
+  
+  input[type="checkbox"]:not(:checked), 
+  input[type="checkbox"]:checked {
+    position: absolute;
+    left: -9999%;
+  }
+  
+  input[type="checkbox"] + label {
+    display: inline-block;
+    padding: 10px;
+    cursor: pointer;
+    border: 1.5px solid black;
+    color: black;
+    background-color: white;
+    margin-bottom: 10px;
+    width: 35px;
+    height: 35px;
+  }
+  
+  input[type="checkbox"]:checked + label {
+    border: 1px solid white;
+    color: white;
+    background-color: grey;
+    
+  }
+
+  input[type="checkbox"]:checked + label {
+    border: 1px solid white;
+    color: white;
+    background-color: grey;
+    
+  }
+    </style>
+</head>
+<body target="legend">
+
+<!-- SHOWS THE TYPES OF SEAT SELECTION -->
+
+    <br><br><br><br><br><br><br><center><b><i>SEAT LEGEND:</i></b></center>
+    <ul>
+        <li>
+        <input type="checkbox" id="check_1" name="check_1" value="check_1" title="Seats in the last row may not Recline" alt="sss">
+        <label for="check_1">21</label>
+        </li><br><br>AVAILABLE SEATS
+    </ul>
+    <ul>
+        <li>
+            <input type="checkbox" id="check_43" checked name="check_43" value="check_43">
+                <label for="check_43" style="background-color: tomato;">21</label>    
+        </li><br><br>UNAVAILABLE
+    </ul>
+
+<ul>
+<li>
+    <input type="checkbox" id="check_1" name="check_1" value="check_1" title="Seats in the last row may not Recline" checked>
+    <label for="check_1">21</label></li><br><br>SELECTED SEATS
+</ul>
+</body>
+</html>

@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+    
+  }
+  *{
+    font-family: Maiandra GD;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: #aad4da;
+  }
+  #login{
+  
+  float: right;
+  }
+  
+  .float{
+  float: right;
+  }  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 20px 22px;
+    font-family: Maiandra GD;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: black;
+    padding: 20px 22px;
+    background-color: inherit;
+    font-family: Maiandra GD;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: grey;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .navbar a.active {
+    background-color: #b93425;
+    color: white;
+  }
+  .haf1{
+      background-color: white;
+      padding: 1%;
+      width: 90%;
+      margin: auto;
+      border-radius: 5px;
+      box-shadow: 10px 10px 30px black;
+  }
+  .ha2{
+      padding: 2%;
+      border-style: none;
+      font-family: Maiandra GD;
+      font-size: 25px;
+  }
+  .ha2:hover{
+      border: 3px dashed #ff7404;
+      text-decoration: underline;
+      border-radius: 5px;
+  }
+  .ha1{
+    font-family: Maiandra GD;
+    color: #5f5656;
+      font-size: 50px;
+      margin-left: 5%;
+      margin-top: -20%;
+      margin-bottom: -5%;
+  }
+  .btn pre
+{
+    text-align: center;
+    font-size: 25px;
+    color: tomato;
+    margin-top: -15%;
+    margin-left: 25%;  
+
+}
+.btn p{
+  text-align: center;
+}
+.btn
+{
+    width: 20%;
+    margin: 1%;
+    color: black;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 15%;
+    padding: 1%;
+}
+.safe{
+  
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.footer{
+  text-align: center;
+  font-family: Maiandra GD;
+  background-color: #343a40;
+  height: 5%;
+  padding-top: 0.7%;
+  padding-bottom: 0.7%;
+}
+.null1,.null2,.null3{
+  display: inline-block;
+  width: 20%;
+  background-color: whitesmoke;
+  height: 25%;
+  margin-bottom: 1.5%;
+  padding: 0.5%;
+  border-radius: 10px;
+  font-family: Maiandra GD;
+  font-size: 20px;
+  text-align: justify;
+}
+.null1{
+  margin-left: 15%;
+  margin-right: 2.5%;
+}
+.null3{
+  margin-right: 12%;
+  margin-left: 2.5%;
+}
+.null,.afk,.afk1,.jhi,.poi h1,h3{
+  text-align: center;
+  font-family: Maiandra GD;
+}
+.pb{
+  margin-top: 50px;
+  margin-left: 100px;
+  line-height: 30px;
+  display: inline-block;
+}
+.links
+{
+  height: 400px;
+  width: 100%;
+  background-color: #d6d1d1;
+  margin-top: 15px;
+  font-family: Maiandra GD;
+  
+}
+li a{
+  text-decoration: none;
+}
+.guru
+{
+  color: black;
+}
+.afk,.afk1,.jhi,.lkj{
+  text-align: center;
+  font-family: Maiandra GD;
+  width: 65%;
+  margin: auto;
+  color: #9896aa;
+  padding: 15px;
+}
+.afk2,.jhi2{
+  background-color: #e4e0e0;
+}
+.guru:hover
+{
+  color: white;
+  background-color: #033067;
+  border-radius: 15px;
+  padding: 4px;
+ 
+}
+ul{
+  list-style: none;
+}
+
+ul li::before {
+    
+ 
+  content: "\2022";  
+  color: #c60001; 
+  display: inline-block; 
+  width: 1em;
+  margin-left: -0.9em;
+  font-weight: bold;
+  font-size:1.1rem;
+}
+.jhi1{
+  display: inline-block;
+}
+.poi1{
+  display: inline-block;
+  width: 20%;
+  background-color: whitesmoke;
+  box-shadow: 10px 10px 50px black;
+  border-radius: 10px;
+  padding: 0.5%;
+  margin: 2%;
+  margin-left: 15%; 
+}
+.poi1 img,.poi2 img,.poi3 img{
+  margin-left: 33%;
+  margin-bottom: -1%;
+}
+.poi2{
+  display: inline-block;
+  width: 20%;
+  background-color: whitesmoke;
+  box-shadow: 10px 10px 50px black;
+  border-radius: 10px;
+  padding: 0.5%;
+  margin: 2%;
+}
+.poi3{
+  display: inline-block;
+  width: 20%;
+  background-color: whitesmoke;
+  box-shadow: 10px 10px 50px black;
+  border-radius: 10px;
+  padding: 0.5%;
+  margin: 2%;
+}
+
+        </style>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    </head>
+    <body>
+        <div class="navbar">
+            <img src="nlogo.png" style="float: left;" alt="" height="50px" width="100px">
+            <a href="home.html" class="active">My Bus</a>
+            <div class="float">
+            <div class="dropdown">
+              <button class="dropbtn">Manage Booking 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="cancel ticket.html">Cancel Ticket</a>
+                <a href="show my ticket.html">Show My Ticket</a>
+                <a href="SMS and Emails.html">Email/SMS</a>
+                <a href="my bookings.html">My Bookings</a>
+                <a href="feedback.html" target="_blank">Feedback</a>
+                </div>
+              </div>
+                <div class="dropdown">
+            <button class="dropbtn">Login
+            <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content">
+            <a href="login.html">Login</a>
+            <a href="signup.html">Sign Up</a>
+        </div> 
+    </div>
+            <a href="AboutUs.html" target="blank">About</a>
+            <a href="ContactUs.html" target="blank" class="float">Contact</a>
+            </div> 
+        </div>
+
+<div  style="background: url(bg22.png);height: 75%;padding: 15%;padding-bottom: 19%;background-size: cover;">
+    <div class="ha1">
+        <h4>Book Bus Tickets Online</h4>
+    </div>
+
+        <div class="haf1" >
+            <form action="Bus Selection.html">
+            <select id="departure" name="departure" class="ha2">
+                <option value="Chennai">From</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Coimbatore">Coimbatore</option>
+                <option value="Bangalore">Bangalore</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Tripura">Tripura</option>
+                <option value="Hosur">Hosur</option>
+                <option value="Salem">Salem</option>
+                <option value="Kumbakonam">Kumbakonam</option>
+                <option value="Thanjavur">Thanjavur</option>
+                <option value="Thirunaleveli">Thirunaleveli</option>
+                <option value="Nagercoil">Nagercoil</option>
+                <option value="Andhra Pradesh">Andhra Pradesh</option>
+            </select>
+            
+            <select id="Arrival" name="Arrival" class="ha2">
+                <option value="Chennai">To</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Coimbatore">Coimbatore</option>
+                <option value="Bangalore">Bangalore</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Tripura">Tripura</option>
+                <option value="Hosur">Hosur</option>
+                <option value="Salem">Salem</option>
+                <option value="Kumbakonam">Kumbakonam</option>
+                <option value="Thanjavur">Thanjavur</option>
+                <option value="Thirunaleveli">Thirunaleveli</option>
+                <option value="Nagercoil">Nagercoil</option>
+                <option value="Andhra Pradesh">Andhra Pradesh</option>
+            </select>            
+        
+            
+            <input type="date" class="ha2">
+
+            
+            <input  type="submit" alt="Show Buses" value="Search Buses" class="ha2" style="margin-left: 2%;background-color: #ff7404;color: white;font-weight: bold;border-radius: 5px;">
+            </form>
+        </div>
+        </div>
+
+
+
+        <div class="null">
+          <h3 style="color: #fb702f;">EASY BOOKINGS</h3>
+        
+            <h1>Simple steps to book your bus ticket online</h1>
+           <div class="null1">
+            <p><span style="font-size: 100px;color: #fb702f;;">1</span>
+            SEARCH BUS
+            Enter source and destination locations in the 'From' and 'To' tab respectively. Enter the 'Date of Journey' and hit the 'Search Buses' button.
+            </p>
+            </div>
+            <div class="null2">
+            <p><span style="font-size: 100px;color: #fb702f;;">2</span>
+            BOOK TICKET
+            Select a bus of your choice from the list of buses displayed, select a seat, boarding, and dropping points and hit 'Continue to Book Tickets'.
+          </p>  
+          </div>
+            <div class="null3">
+           <p><span style="font-size: 100px;color: #fb702f;;">3</span>
+            TRAVEL
+            Travel Safe with deep cleaned and disinfected bus euipped with hand sanitizers, all staff with masks at all time during the journey. Happy Ticketing
+          </p>  
+          </div>
+        </div>
+        
+
+<img src="needed.png" alt="" width="100%" height="100%">
+
+
+<div class="poi">
+  <h3 style="color: #fb702f;">EXCITING BENEFITS</h3>
+  <h1 style="color: #5f5656;">Book your bus ticket now</h1>
+  <div class="poi1">
+    <img src="money.png" width="100" height="75" alt="">
+    <h3>LOWEST PRICES</h3>
+    <p style="text-align: justify;">
+      MyBus always give you the lowest price with the best partner offers on bus ticket booking. 
+      Access to cashback offers on ticket booking. 
+      To get the best price on bus bookings subscribe to our newsletter.
+    </p>
+  </div>
+
+  <div class="poi2">
+    <img src="gift.png" width="100" height="75" alt="">
+    <h3>UNMATCHED BENEFITS</h3>
+    <p style="text-align: justify;">
+      Booking bus tickets online with MyBus has solved many problems that people
+       face while booking their tickets at offline counters or travel agents.
+        We take care of your travel beyond bus ticketing.
+    </p>
+  </div>
+
+  <div class="poi3">
+    <img src="service.png" width="100" height="75" alt="">
+    <h3>24/7 CUSTOMER SERVICE</h3>
+    <p style="text-align: justify;">
+      We ensure at MyBus to provide 24/7 customer support. 
+      We use our experience to provide best service and are available
+      to solve your bus ticket booking related issues anytime.
+    </p>
+  </div>
+
+
+  
+</div>
+
+
+<div class="afk2">
+  <div class="afk1">
+    <h3 style="color: #fb702f;">WHY US ?</h3>
+          
+              <h1 style="color: #5f5656;">Why MyBus.com for Online Bus Ticket Booking</h1>
+              <p>
+                MyBus.com has 1500+ verified bus partners to choose for ticket booking who are serving more than 15,000+ routes across India. MyBus offers 24/7 customer support to resolve all your online bus ticket booking queries. You can also call on +91 882 530 6850 this numnber for bus ticket bookings. BusAndTicket.com enables users to book bus tickets on both Desktop and Mobile site seamlessly. All the bus ticket bookings you make on the BusAndTicket.com website are safe & secure.
+              </p>
+              
+  </div>
+  </div>
+  
+
+
+<div class="afk">
+  <h3 style="color: #fb702f;">BOOK BUS TICKET NOW</h3>
+        
+            <h1 style="color: #5f5656;">Get offers and discounts on Bus Ticket Booking</h1>
+            <p>
+              With simpler and smarter way of online bus booking at BusAndTicket.com, be ready to travel any destination of India. We list more than 10,000 bus routes across India and provide great facility of online bus reservation. Explore the wide options of buses and choose to travel with Volvo buses, luxury buses, AC/Non-AC buses, sleeper buses or several other buses at reasonable rates. Best discounts and cash back offers are available on bus ticket. Be free from standing in the long queue of bus counters and go for bus booking online with BusAndTicket.com. Be sure for a memorable & secure journey!
+            </p>
+            <p>
+              All the bookings you make on the MyBus.com website are safe & secure. MyBus offers 24/7 customer support to resolve all your bus ticket booking queries.
+            </p>
+</div>
+<div class="jhi2">
+<div class="jhi">
+  <h3 style="color: #fb702f;">GREAT BENEFITS</h3>
+        
+            <h1 style="color: #5f5656;">Benefits of Booking Bus Tickets Online</h1>
+            <p>Booking bus tickets online with us has solved many problems that people face while booking their tickets at offline counters or travel agents.</p>
+<div class="jhi1" style="text-align: left;">
+            <ul>  
+              <li>Avoid standing in long queues at offline bus ticket counters</li>
+              <li>Each and every transaction is simple, safe and secure</li>
+              <li>Get Bus timings, ticket price, boarding &amp; dropping point details online</li>
+              <li>Access to payment partner discounts and cashback offers</li>        
+            </ul>
+        </div>
+
+<div class="jhi1" style="text-align: left;">
+           <ul>
+              <li>Choose from multiple bus operators</li>
+              <li>Check bus ticket availability online</li>
+              <li>24/7 customer support</li>
+              <li>Avoid travel agents </li>
+           </ul>
+</div>
+</div>
+</div>
+
+
+<div class="lkj">
+  <h3 style="color: #fb702f;">HIRE BUS FROM MyBus.com</h3>
+  <p>Everyone enjoys travelling, seeing new places, new things, however when it comes to driving everyone avoids it, because of growing traffic. It is very difficult to reach one place to another. 
+    For the group travel select MyBus. You will find the best solution for booking the bus, and all travel related queries. There are multiple offers and coupons available for booking. 
+    For all query there is support group to give proper solution. Some of the things inside the bus like T.V, Wi-Fi, AC, are all included in the bus rent.
+     So, we can conclude that Booking bus with MyBUs is very easy, safe, and comfortable and there are many benefits, offers on booking the ticket.
+      With all these thing you’ll be giving yourself an amazing group travelling experience.India is currently facing Second wave of corona virus, however all the people prefer a safe travel for various purpose. 
+    After the long gap the domestic bus and services have started. In this time Busandticket helps you to travel safely to your destination.</p>
+
+</div>
+<div class="links"><span class="pb"><font color="black" size="4.5px"><b>Popular Bus Routes</b></font>
+  <ul>
+   <li ><a href="#" class="guru">Pune-Shirdi Buses</a></li>
+   <li><a href="#" class="guru">Chennai-Coimbatore Buses</a></li>
+   <li><a href="#" class="guru">Hyderabad-Visakhapatnam Buses</a></li>
+   <li><a href="#" class="guru">Bangalore-Hyderabad Buses</a></li>
+   <li><a href="#" class="guru">Bangalore-Vijayawada Buses</a></li>
+   <li><a href="#" class="guru">Hyderabad-Chennai Buses</a></li>
+   <li><a href="#" class="guru">Chennai-Bangalore Buses</a></li>
+   <li><a href="#" class="guru">Bangalore-Chennai Buses</a></li>
+   <li><a href="#" class="guru">Hyderabad-Vijayawada Buses</a></li>
+   </ul></span>
+   <span class="pb"><font color="black" size="4.5px"><b>Popular Hotel Cities</b></font>
+      <ul>
+          <li><a href="#" class="guru">Hotels in Hyderabad</a></li>
+          <li><a href="#" class="guru"> Hotels in Jaipur</a></li>
+          <li><a href="#" class="guru">Hotels in Mangalore</a></li>
+          <li><a href="#" class="guru">Hotels in Bengaluru</a></li>
+          <li><a href="#" class="guru">Hotels in Visakhapatnam</a></li>
+          <li><a href="#" class="guru">Hotels in Goa</a></li>
+          <li><a href="#" class="guru">Hotels in Mysore</a></li>
+          <li><a href="#" class="guru"> Hotels in Shirdi</a></li>
+          <li><a href="#" class="guru">Hotels in Coimbatore</a></li>
+          </ul>
+   </span>
+   <span class="pb"><font color="black" size="4.5px"><b>Popular Bus Operators</b></font>
+      <ul>
+          <li><a href="#" class="guru">APSRTC</a></li>
+          <li><a href="#" class="guru">TSRTC</a></li>
+          <li><a href="#" class="guru">BSRTC</a></li>
+          <li><a href="#" class="guru">Kerala RTC</a></li>
+          <li><a href="#" class="guru">Orange Travels</a></li>
+          <li><a href="#" class="guru">SRS Travels</a></li>
+          <li><a href="#" class="guru">Morning Star Travels</a></li>
+          <li><a href="#" class="guru">Kaveri Travels</a></li>
+          <li><a href="#" class="guru">Diwakar Travels</a></li>
+          </ul>
+   </span>
+   <span class="pb"><font color="black" size="4.5px"><b>More Useful Links</b></font>
+      <ul>
+          <li><a href="#" class="guru"> Check PNR Status</a></li>
+          <li><a href="#" class="guru">Train Running Status</a></li>
+          <li><a href="#" class="guru">Bus Rentals</a></li>
+          <li><a href="#" class="guru"> APSRTC Bus Booking</a></li>
+          <li><a href="#" class="guru"> TSRTC Bus Booking</a></li>
+          <li><a href="#" class="guru">Kerala RTC Bus Booking</a></li>
+          <li><a href="#" class="guru">MSRTC Bus Booking</a></li>
+          <li><a href="#" class="guru">Hotel Bookings</a></li>
+          <li><a href="#" class="guru"> Bus Booking Offers</a></li>
+          </ul>
+   </span>
+  </div>
+  
+  <div style="padding-left: 40%;background-color: #e4e0e0;">
+    <label>
+        FOLLOW US ON:
+    </label><br>
+    <a href="https://www.facebook.com/mstbus" target="_blank"><img src="fb.png" alt="fb" height="80" width="80"></a>
+    <a href="https://www.instagram.com/travelsm/" target="_blank"><img src="insta.png" alt="insta" height="80" width="80"></a>
+    <a href="https://twitter.com/mstbus" target="_blank"><img src="twitter.png"  alt="twiiter" height="80" width="80"></a>
+    <a href="https://twitter.com/mstbus" target="_blank"><img src="yt.png"  alt="twiiter" height="70" width="70"></a>
+
+    
+</div>
+
+
+<div class="footer">
+  <h2>
+    Copyright © 2021 <span style="color: red;">MyBus.com</span> All rights reserved.
+  </h2>
+</div>
+      
+    </body>
+</html>

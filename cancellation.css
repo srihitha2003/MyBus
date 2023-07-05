@@ -1,0 +1,121 @@
+.details
+{
+    max-height: 1350px;
+    min-height: 580px;
+    width: 900px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 330px;
+    background-attachment: fixed;
+    
+}
+
+
+#customers {
+    font-family: Maiandra GD;
+    border-collapse: collapse;
+    width: 100%;
+   
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #175470;
+    color: white;
+  }
+
+  #refund
+  {
+      padding: 10px;
+      color: white;
+      margin-top: 5px;
+      margin-left: 370px;
+      font-weight: bold;
+
+  }
+
+  #ref
+  {
+      display: none;
+  }
+
+  .cancel
+  {
+    padding: 10px;
+    color: white;
+    margin-top: 15px;
+    margin-left: 370px;
+    font-weight: bold; 
+  }
+
+	.blink{
+		width: 900px;
+		height: 200px;
+	    
+			
+	text-align: center;
+		line-height: 50px;
+	}
+	.sp{
+		font-size: 25px;
+		font-family: Maiandra GD;
+		color: black;
+		animation: blink 0.8s linear infinite;
+    font-weight:bold;
+	}
+@keyframes blink{
+0%{opacity: -0.5;}
+50%{opacity: .1;}
+100%{opacity: 2;}
+}
+
+.can
+{
+height: 500px;
+width: 1000px;
+background-color: brown;
+margin-top: -10px;
+margin-left: -10px;
+box-shadow: 10px 10px 40px black;
+
+}
+
+.ticket
+{
+
+  height: 450px;
+  width: 800px;
+  background-color: white;
+  margin-top: -200px;
+  margin-left: 750px;
+  box-shadow: 10px 10px 40px black;
+  border-radius: 10px;
+}
+
+.text
+{
+  color: white;
+  margin-top:  -550px;
+  margin-left: 940px;
+  font-family: Maiandra GD;
+  font-size: 33px;
+
+}
+
+.reas
+{
+
+  margin-left: 150px;
+}
+
